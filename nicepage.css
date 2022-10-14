@@ -38910,14 +38910,8 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
-.u-header .u-custom-html-1 {
-  height: auto;
-  min-height: 47px;
-  margin: -203px 25px 0 1025px;
-}
-
 .u-header .u-menu-1 {
-  margin: 162px auto 34px;
+  margin: 5px auto 34px;
 }
 
 .u-header .u-file-icon-6 {
@@ -38978,14 +38972,8 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 1px;
   }
 
-  .u-header .u-custom-html-1 {
-    margin-top: -142px;
-    margin-right: 81px;
-    margin-left: 777px;
-  }
-
   .u-header .u-menu-1 {
-    margin-top: 95px;
+    margin-top: 0;
     margin-bottom: 34px;
   }
 }
@@ -39012,25 +39000,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-2 {
-    min-height: 340px;
+    min-height: 339px;
   }
 
   .u-header .u-image-1 {
     width: 360px;
     height: 339px;
+    margin-top: 0;
     margin-left: 0;
-  }
-
-  .u-header .u-custom-html-1 {
-    margin-top: -262px;
-    margin-right: 99px;
-    margin-left: 516px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: 20px;
-    margin-right: 111px;
+    margin-top: -207px;
+    margin-right: 97px;
     margin-bottom: 60px;
   }
 
@@ -39086,14 +39069,8 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: -28px;
   }
 
-  .u-header .u-custom-html-1 {
-    margin-top: -234px;
-    margin-right: 55px;
-    margin-left: 417px;
-  }
-
   .u-header .u-menu-1 {
-    margin-top: 32px;
+    margin-top: -155px;
     margin-right: 35px;
   }
 }
@@ -39138,14 +39115,8 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: -50px;
   }
 
-  .u-header .u-custom-html-1 {
-    margin-top: -199px;
-    margin-right: 0;
-    margin-left: 272px;
-  }
-
   .u-header .u-menu-1 {
-    margin-top: 20px;
+    margin-top: -132px;
     margin-right: -22px;
   }
 
@@ -39203,7 +39174,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    height: 53px;
     width: 250px;
     margin-top: -59px;
     margin-right: -25px;
@@ -39230,7 +39200,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 250px;
     margin-top: 15px;
     margin-right: auto;
     margin-bottom: 15px;
