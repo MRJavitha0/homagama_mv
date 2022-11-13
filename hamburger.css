@@ -1,0 +1,47 @@
+ body{
+    background: #000;
+}
+ #menu{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, #e91e63,
+    #f44336);
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.line1, .line2, .line3{
+    background: #fff;
+    width: 120px;
+    height: 10px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s;
+}
+.line1{
+    width: 60px;
+    transform: translate(-60px, -50px);
+    transform-origin: 0 0;
+}
+.line3{
+    width: 60px;
+    transform: translate(0px, 40px);
+    transform-origin: 100% 0;
+}
+
+.openmenu .line1{
+    transform: translate(0, 0) rotate(-45deg);
+}
+.openmenu .line2{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.openmenu .line3{
+    transform: translate(-60px, 0) rotate(-45deg);
+}
