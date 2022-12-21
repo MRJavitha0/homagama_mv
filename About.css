@@ -37,7 +37,7 @@
 
 .u-section-1 .u-text-2 {
   font-size: 1.25rem;
-  margin: 41px 19px 0 41px;
+  margin: 36px 15px 0 45px;
 }
 
 @media (max-width: 1199px) {
@@ -168,10 +168,8 @@
 }
 
 .u-section-2 .u-image-1 {
-  width: 226px;
-  height: 226px;
-  background-image: url("images/20220926-102437.jpg");
-  background-position: 50% 50%;
+  width: 364px;
+  height: 364px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -203,6 +201,10 @@
 
   .u-section-2 .u-group-1 {
     height: auto;
+  }
+
+  .u-section-2 .u-image-1 {
+    background-position: 50% 50%;
   }
 }
 
@@ -253,6 +255,11 @@
     min-height: 675px;
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 340px;
+    height: 340px;
   }
 
   .u-section-2 .u-text-1 {
