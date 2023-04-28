@@ -23,7 +23,7 @@ let updateTimer;
 const music_list = [
     {
         img : 'images/20220831_104506.png',
-        name : 'H.M.V. Antheme',
+        name : 'H.M.V. thame song',
         artist : '',
         music : 'music/HOMAGAMA MAHAVIDDYATA.wav'
     },
